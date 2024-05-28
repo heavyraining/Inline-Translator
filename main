@@ -341,7 +341,7 @@ local function onChatFocusLost(Bar)
 
 						forceChat(translated)
 						
-						systemMessage("(" ..string.upper(autoTranslateTo).. ") " ..game.Players.LocalPlayer.Name.. ": " ..translated)
+						systemMessage("(" ..string.upper(autoTranslateTo).. ") " ..game.Players.LocalPlayer.Name.. ": " ..Message)
 					else
 						forceChat(Message)
 					end
